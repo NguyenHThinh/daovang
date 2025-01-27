@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: [
     "animate.css",
-    "~/assets/libs/bootstrap/css/bootstrap.css",
+    // "~/assets/libs/bootstrap/css/bootstrap.css",
     "~/assets/css/style.css",
   ],
   srcDir: "src/",
