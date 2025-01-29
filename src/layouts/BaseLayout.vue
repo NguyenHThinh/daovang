@@ -1,5 +1,6 @@
 <template>
-  <HeaderNav />
+  <HeaderNav class="desktop" />
+  <HeaderNavMobi class="mobile" />
   <slot></slot>
   <CommonFooter />
 </template>

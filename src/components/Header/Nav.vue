@@ -31,3 +31,14 @@
 </template>
 
 <script lang="ts" setup></script>
+
+<style scoped>
+header.header {
+  display: none;
+}
+@media (min-width: 768px) {
+  header.header {
+    display: block;
+  }
+}
+</style>
