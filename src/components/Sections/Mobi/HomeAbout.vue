@@ -53,3 +53,28 @@ const handleCloseModal = () => {
   isShowModal.value = false;
 };
 </script>
+
+<style scoped>
+.home-story {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: -7px;
+}
+.home-story--paper {
+  position: absolute;
+  width: 40%;
+  height: 34%;
+  top: 5.5%;
+  right: 15px;
+  background: url(/assets/img/paper.png) no-repeat center;
+  background-size: contain;
+}
+.home-story .videoWrapper {
+  padding-bottom: 155%;
+}
+.videoWrapper video {
+    height: 100%;
+    object-fit: cover;
+    object-position: 15% 60%;
+}
+</style>

@@ -15,3 +15,11 @@
 </template>
 
 <script lang="ts" setup></script>
+
+<style scoped>
+@media (max-width: 767px) {
+  .home-character {
+    background-position: 12% 0;
+  }
+}
+</style>

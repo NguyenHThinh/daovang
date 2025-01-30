@@ -1,9 +1,11 @@
 <template>
   <NuxtLayout name="base-layout">
-    <SectionsMapsTabs :mapdata="MAPS_DATA" :map-detail="currentMap" @update:map-detail="changeMap"/>
-
-    <SectionsMapsDetail :map-detail="currentMap"/>
+    <SectionsMapsTabs :mapdata="MAPS_DATA" :map-detail="currentMap" @update:map-detail="changeMap" class="desktop"/>
     
+    <SectionsMapsDetail :map-detail="currentMap" class="desktop"/>
+
+    <SectionsMobiMapPage class="mobile" />
+
   </NuxtLayout>
 </template>
 
@@ -18,7 +20,7 @@ const MAPS_DATA: MapData[] = [
     map: "/images/pages/maps-img-1.png",
     image: "/images/pages/maps-header-1.png",
     detailTitle: "JOURNEY TO MAYA",
-    detail: 'While preparing for the expedition, Vincent accidentally discovered a precious "treasure" preserved in an old chest - an old compass, a necklace with a stone and a piece of paper .... "Oh it\'s an ancient map of Maya from several millennia ago," Vincent said. <br /> Vincent decided to go alone to the area being excavated by archaeologists - the Chaco ravine. There, the stone he once found in the warehouse emits a source of energy waves that interact with the waves emitted in the ravine, unintentionally warping space and time, bringing Vincent back to the Maya era and the story of Transfer your journey is started.',
+    detail: 'While preparing for the expedition, Vincent accidentally discovered a precious "treasure" preserved in an old chest - an old compass, a necklace with a stone and a piece of paper .... "Oh it\'s an ancient map of Maya from several millennia ago," Vincent said. Vincent decided to go alone to the area being excavated by archaeologists - the Chaco ravine. There, the stone he once found in the warehouse emits a source of energy waves that interact with the waves emitted in the ravine, unintentionally warping space and time, bringing Vincent back to the Maya era and the story of Transfer your journey is started.',
   },
   {
     id: '2',
@@ -84,7 +86,6 @@ const MAPS_DATA: MapData[] = [
     detail: 'Comming soon',
   }
 ];
-
 useHead({
   title: "Maps | Treasure Hunter",
 });

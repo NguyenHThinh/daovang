@@ -45,3 +45,27 @@ const handleCloseModal = () => {
   isShowModal.value = false;
 };
 </script>
+
+<style scoped>
+/*
+======================================
+[ Home Journey ]
+======================================
+*/
+.home-journey {
+  position: relative;
+  background: url(assets/img/home-journey-bg-mb.jpg) no-repeat center;
+  background-size: 100% 100%;
+  overflow: hidden;
+  padding: 39.6% 0;
+}
+.home-journey--paper {
+  position: absolute;
+  top: 11.5%;
+  left: 30%;
+  width: 50%;
+  height: 61%;
+  background: url(assets/img/home-journey-paper-mb.png) no-repeat center;
+  background-size: contain;
+}
+</style>
