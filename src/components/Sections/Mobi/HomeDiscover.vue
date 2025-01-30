@@ -49,6 +49,48 @@
               </div>
             </div>
           </swiper-slide>
+          <swiper-slide class="swiper-slide">
+            <div class="el__col">
+              <div class="el__item">
+                <div class="el__item--thumb">
+                  <div class="dnfix__thumb -contain">
+                    <NuxtImg src="/images/home-discover-img-2.png" alt="" />
+                  </div>
+                </div>
+                <div class="el__item--meta">
+                  <h3 class="el__item--title">Breeding</h3>
+                </div>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide class="swiper-slide">
+            <div class="el__col">
+              <div class="el__item">
+                <div class="el__item--thumb">
+                  <div class="dnfix__thumb -contain">
+                    <NuxtImg src="/images/home-discover-img-3.png" alt="" />
+                  </div>
+                </div>
+                <div class="el__item--meta">
+                  <h3 class="el__item--title">FORGE</h3>
+                </div>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide class="swiper-slide">
+            <div class="el__col">
+              <div class="el__item">
+                <div class="el__item--thumb">
+                  <div class="dnfix__thumb -contain">
+                    <NuxtImg src="/images/home-discover-img-1.png" alt="" />
+                  </div>
+                </div>
+                <div class="el__item--meta">
+                  <h3 class="el__item--title">ADVENTURE</h3>
+                </div>
+              </div>
+            </div>
+          </swiper-slide>
         </swiper-container>
       </ClientOnly>
 
@@ -79,6 +121,7 @@ const slideDiscoverRef = ref(null);
 useSwiper(slideDiscoverRef, {
   slidesPerView: 2.5,
   centeredSlides: true,
+
   loop: true,
   freeMode: false,
   spaceBetween: 30,

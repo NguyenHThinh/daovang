@@ -30,6 +30,8 @@
 
     <SectionsHomeCollection class="desktop" />
 
+    <SectionsMobiHomeCollection class="mobile" />
+
     <ModalsSupportChatBox class="desktop" />
   </NuxtLayout>
 </template>
