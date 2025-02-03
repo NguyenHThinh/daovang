@@ -8,11 +8,44 @@ export default defineNuxtConfig({
     "~/assets/css/style.css",
   ],
   srcDir: "src/",
-  modules: ["nuxt-swiper", "@nuxt/image"],
+  modules: ["nuxt-swiper", "@nuxt/image", "@nuxtjs/i18n"],
 
   // swiper config
   swiper: {
     bundled: true,
     enableComposables: true,
   },
+  
+  // i18n config
+  i18n: {
+    locales: [
+      {
+        code: "en",
+        name: "English",
+        iso: "en-US",
+        file: "en.json",
+        flag: "/_nuxt/assets/flag/en.png",
+        domain: "en.localhost",
+      },
+      {
+        code: "vi",
+        name: "Tiếng Việt",
+        iso: "vi-VN",
+        file: "vi.json",
+        flag: "/_nuxt/assets/flag/vi.png",
+        domain: "vi.localhost",
+      },
+    ],
+    defaultLocale: "vi",
+    lazy: true,
+    restructureDir: 'src/i18n/',
+    langDir: "locales",
+    strategy: "no_prefix",
+    differentDomains: true,
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: "i18n_redirected",
+      redirectOn: "root",
+    },
+  }
 });
