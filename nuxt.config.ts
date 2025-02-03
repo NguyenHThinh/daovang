@@ -20,32 +20,29 @@ export default defineNuxtConfig({
   i18n: {
     locales: [
       {
-        code: "en",
-        name: "English",
-        iso: "en-US",
-        file: "en.json",
-        flag: "/_nuxt/assets/flag/en.png",
-        domain: "https://en.daovang.vercel.app/",
+        code: 'en',
+        name: 'English',
+        iso: 'en-US',
+        file: 'en.json',
+        flag: '/images/flag/en.png'
       },
       {
-        code: "vi",
-        name: "Tiếng Việt",
-        iso: "vi-VN",
-        file: "vi.json",
-        flag: "/_nuxt/assets/flag/vi.png",
-        domain: "https://vi.daovang.vercel.app/",
+        code: 'vi',
+        name: 'Tiếng Việt',
+        iso: 'vi-VN',
+        file: 'vi.json',
+        flag: '/images/flag/vi.png'
       },
     ],
-    defaultLocale: "vi",
-    lazy: true,
+    defaultLocale: 'vi', // default lang
+    lazy: true, // only load file when request
     restructureDir: 'src/i18n/',
-    langDir: "locales",
-    strategy: "no_prefix",
-    differentDomains: true,
+    langDir: 'locales', // dir folder key trans
+    strategy: 'prefix_except_default',
     detectBrowserLanguage: {
       useCookie: true,
-      cookieKey: "i18n_redirected",
-      redirectOn: "root",
-    },
-  }
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root'
+    }
+  },
 });

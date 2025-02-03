@@ -2,7 +2,7 @@
   <div class="text-center">
     <div class="languages">
       <div class="languages-item" @click="toggleSwitchLanguage">
-        <img :src="currentLanguage?.flag" alt="ENG" /><span>{{
+        <NuxtImg :src="currentLanguage?.flag" alt="ENG" /><span>{{
           currentLanguage?.name
         }}</span>
       </div>
@@ -11,7 +11,7 @@
           :class="[{ active: language.code === locale }]"
           v-for="language in locales"
           :key="language.id"
-          @click="handleSwitchLanguage(language.domain || '')"
+          @click="setLocale(language.code)"
         >
           <img :src="language.flag" alt="ENG" /><span>{{ language.name }}</span>
         </li>
@@ -21,7 +21,7 @@
 </template>
 
 <script lang="ts" setup>
-const { locales, locale } = useI18n();
+const { locales, locale, setLocale } = useI18n();
 
 const isOpenSwitchLanguage = ref(false);
 const toggleSwitchLanguage = () => {
@@ -29,10 +29,6 @@ const toggleSwitchLanguage = () => {
 };
 
 const currentLanguage = ref(locales.value.find((i) => i.code === locale.value));
-
-const handleSwitchLanguage = (url: string) => {
-  window.location.href = url
-};
 </script>
 
 <style scoped>
