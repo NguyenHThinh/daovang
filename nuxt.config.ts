@@ -25,7 +25,7 @@ export default defineNuxtConfig({
         iso: "en-US",
         file: "en.json",
         flag: "/_nuxt/assets/flag/en.png",
-        domain: "en.localhost",
+        domain: "https://en.daovang.vercel.app/",
       },
       {
         code: "vi",
@@ -33,7 +33,7 @@ export default defineNuxtConfig({
         iso: "vi-VN",
         file: "vi.json",
         flag: "/_nuxt/assets/flag/vi.png",
-        domain: "vi.localhost",
+        domain: "https://vi.daovang.vercel.app/",
       },
     ],
     defaultLocale: "vi",
