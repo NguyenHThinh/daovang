@@ -16,7 +16,7 @@
                     {{ mapDetail.detail }}
                   </div>
                   <div class="text-start">
-                    <a href="" class="btn--playnow">Play now</a>
+                    <a href="" class="btn--playnow">{{ $t("common.playNow") }}</a>
                   </div>
                 </div>
               </div>

@@ -49,7 +49,7 @@ header.header .logo{margin-bottom:0;padding:0 60px;width:340px;}
 [ Main menu ]
 ======================================
 */
-.main__nav{position:relative;font-family:'Bungee',cursive;z-index:9;width:calc(50% - 170px);}
+.main__nav{position:relative;font-family:'Bungee',cursive;z-index:9;width:calc(100% - 170px);}
 .main__nav:after{content:"";display:table;clear:both;}
 .main__nav .sc__wrap{position:relative;z-index:9999;width:100%;}
 .main__nav ul{list-style:none;padding:0;margin:0;}
@@ -75,6 +75,11 @@ header.header .logo{margin-bottom:0;padding:0 60px;width:340px;}
 .home-wellcome--play{position:absolute;left:0;right:0;bottom:16%;width:265px;height:104px;background:url(../img/button.png) no-repeat center;background-size:contain;margin:auto;z-index:10;transition:all .5s;font-family:Poppins;font-weight:bold;font-size:26px;color:#321615;line-height:100px;letter-spacing:-2px;text-align:center;text-shadow:0px 4px 4px rgb(0 0 0 / 25%);text-transform:uppercase;-webkit-text-stroke:1px #E16E25;-webkit-text-fill-color:#321615;}
 .home-wellcome--play:hover{transform:translateY(-2px);}
 .home-wellcome--nextpage{position:absolute;left:0;right:0;bottom:10%;width:3.34%;height:4.5%;z-index:10;background:url(../img/next-page.png) no-repeat center;background-size:contain;margin:auto;-webkit-animation-name:Mousex;-webkit-animation-duration:1.5s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease-in-out;-moz-animation-name:Mouse;-moz-animation-duration:1.5s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease-in-out;}
+@keyframes Mousex{
+  from{transform:translate(0,0px);}
+  65%{transform:translate(0,15px);}
+  to{transform:translate(0,-0px);}
+}
 @-webkit-keyframes Mousex{
   from{-webkit-transform:translate(0,0px);}
   65%{-webkit-transform:translate(0,15px);}
@@ -446,7 +451,7 @@ header.header .logo{margin-bottom:0;padding:0 60px;width:340px;}
   ======================================
   */
   @media (max-width:1399px){
-    header.header .header__wrap{padding:15px 0 25px;}
+    /* header.header .header__wrap{padding:15px 0 35px;} */
     .home-island .home-island__map:hover .el__tooltip,.home-island .home-island__map.active .el__tooltip{top:calc(-115% + 30px);}
     .home-island .home-island__map.-st1:hover .el__tooltip,.home-island .home-island__map.-st1 .el__tooltip{top:calc(-130% + 30px);}
     .home-character .el__item--name{padding:25px 50px;}

@@ -2,32 +2,16 @@
   <section id="home-map" class="home-island_mb">
     <div class="container">
       <header class="sc__header text-center">
-        <h2 class="sc__header--title wow fadeInLeft">MAP of civilizations</h2>
+        <h2 class="sc__header--title wow fadeInLeft">{{ $t("homeMap.mapOfCivilization") }}</h2>
         <div class="sc__header--excerpt wow fadeInRight">
-          <p>
-            "History" is always considered an unending novel, the followers
-            always try to perfect and turn back the first pages to connect and
-            explore reality. In recent years, when science and technology have
-            merged into the rhythm of daily life, a topic that is always
-            interested and frequently mentioned by the community is the origin
-            of mankind, human ancestors and early civilization. Since when was
-            it formed? Did we really evolve according to Darwinism or is there
-            some other reason?
-          </p>
-          <p>
-            Mr.Vincent, a citizen of the Northern Hemisphere who loves
-            adventure, always wants to explore new lands and is skeptical about
-            the origins of humanity, once happened to see the news in his
-            hometown about civilization, excavated thousands of years ago
-            prompted him to put aside all current affairs and begin his own
-            exploration of ancient civilizations.
-          </p>
+          <p>{{ $t("homeMap.homeMapHistory") }}</p>
+          <p>{{ $t("homeMap.homeMapVincent") }}</p>
         </div>
       </header>
       <div class="home-island_mb__box wow fadeInUp">
         <CommonSlideMap />
         <div class="text-center">
-          <a href="#" class="btn__khampha">Discover now</a>
+          <a href="#" class="btn__khampha">{{ $t("common.discoverNow") }}</a>
         </div>
       </div>
       <div class="home-island--treasure"></div>

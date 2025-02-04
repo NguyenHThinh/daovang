@@ -3,9 +3,9 @@
       <div class="container">
         <div class="home-collection-mb__box wow fadeInUp">
             <div>
-              <div class="home-collection-mb--title">Pet collection</div>
+              <div class="home-collection-mb--title">{{ $t("collection.petCollection") }}</div>
               <div class="home-collection-mb--excerpt">
-                These lovely pets will probably help you get through these tough journeys!<br >but there are some really scary looking ones, which might work well... haha!
+                {{ $t("collection.lovelyPets") }}<br />{{ $t("collection.someScary") }}
               </div>
             </div>
               <CommonSlidePetsMobile :pets="COLLECTION_PETS_DATA" />

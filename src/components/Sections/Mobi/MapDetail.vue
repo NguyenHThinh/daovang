@@ -22,7 +22,7 @@
                 />
               </div>
               <div class="text-center">
-                <a href="" class="btn--playnow-mb">Play now</a>
+                <a href="" class="btn--playnow-mb">{{ $t("common.playNow") }}</a>
               </div>
             </div>
           </div>
