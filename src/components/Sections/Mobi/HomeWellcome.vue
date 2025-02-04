@@ -15,7 +15,7 @@
   
       <div class="el__logo">
         <img src="assets/img/home-wellcome-logo.png" alt="" />
-        <p>{{ $t("common.openYourOwnEra") }}</p>
+        <p>{{ $t("openYourOwnEra") }}</p>
       </div>
   
       <a href="#" class="home-wellcome--play">{{ $t("common.playNow") }}</a>
