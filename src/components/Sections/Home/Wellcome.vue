@@ -15,10 +15,10 @@
 
     <div class="el__logo">
       <img src="assets/img/home-wellcome-logo.png" alt="" />
-      <p>Open your own era</p>
+      <p>{{ $t("common.openYourOwnEra") }}</p>
     </div>
 
-    <a href="#" class="home-wellcome--play">Play now</a>
+    <a href="#" class="home-wellcome--play">{{ $t("common.playNow") }}</a>
 
     <a href="#home-about" class="home-wellcome--nextpage js-click-smooth"></a>
 

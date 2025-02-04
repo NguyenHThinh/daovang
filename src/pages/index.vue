@@ -50,6 +50,9 @@ useHead({
   display: block;
 }
 @media (min-width: 768px) {
+  .home-wellcome {
+    height: 100dvh;
+  }
   .desktop {
     display: block;
   }

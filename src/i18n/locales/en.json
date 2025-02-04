@@ -1,1 +1,86 @@
-{}
+{
+  "common": {
+    "playNow": "Play now",
+    "discoverNow": "Discover now",
+    "buyPet": "Buy Pet",
+    "joinOur": "JOIN OUR COMMUNITY"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "maps": "Maps",
+    "market": "Marketplace"
+  },
+  "mysteriousIntelligence": "MYSTERIOUS INTELLIGENCE TREASURES",
+  "openYourOwnEra": "Open your own era",
+  "about": {
+      "weAreTreasureHunter": "We Are treasure hunters",
+      "descAboutUs": "The team that built the game Treasure Hunters are all young people who soon access and inherit all modern technology, wanting to upgrade a game genre that is already very familiar to players but in a completely different style. All items and characters in the game are digitized using advanced Blockchain technology in the form of NFTs. Hopefully, it will bring players a completely new and exciting experience.",
+      "vicentStory": "VINCENT STORY",
+      "vicentStoryDetail": "Vincent from his hometown to prepare for his journey. While preparing for the expedition, he accidentally found an old chest covered with dust in the warehouse. In that chest there is an old compass, a necklace with a stone and a piece of paper…. Oh so this is an ancient map of Anasazi from several millennia ago, Vincent said. Vincent decided to go alone to the area being excavated by archaeologists - the Chaco ravine. There, the stone he once found in the warehouse emits a source of energy waves that interact with the waves emitted in the ravine, unintentionally warping space and time, bringing Vincent back to the Anasazi era and the story of Transfer your journey is started."
+    },
+    "journey": {
+        "journeyOfDiscovery": "JOURNEY OF DISCOVERY",
+        "journeyOfDiscoveryDetail": "Treasure Hunter is a game of treasure seekers, everyone must fight to embark on difficult journeys to find the answer for themselves.Prepare yourself with the necessary gear to be able to start a long journey . Treasure Hunter is a game using advanced technology called Blockchain and the in-game rewards equivalent to crypto seem to be limitless"
+    },
+    "homeMap": {
+        "mapOfCivilization": "MAP Of Civilizations",
+        "homeMapHistory": "\"History\" is always considered an unending novel, the followers always try to perfect and turn back the first pages to connect and explore reality. In recent years, when science and technology have merged into the rhythm of daily life, a topic that is always interested and frequently mentioned by the community is the origin of mankind, human ancestors and early civilization. Since when was it formed? Did we really evolve according to Darwinism or is there some other reason?",
+        "homeMapVincent": "Mr.Vincent, a citizen of the Northern Hemisphere who loves adventure, always wants to explore new lands and is skeptical about the origins of humanity, once happened to see the news in his hometown about civilization, excavated thousands of years ago prompted him to put aside all current affairs and begin his own exploration of ancient civilizations."
+    },
+    "maps": {
+        "maya": "Maya",
+        "mayaTitle": "A TREASURE OF MYSTERIOUS WISDOM",
+        "mayaMapTitle": "MAYA CIVILIZATION - A TREASURE OF MYSTERIOUS WISDOM",
+        "mayaMapDesc": "While preparing for the expedition, Vincent accidentally discovered a precious \"treasure\" preserved in an old chest - an old compass, a necklace with a stone and a piece of paper .... \"Oh it\\'s an ancient map of Maya from several millennia ago,\" Vincent said. Vincent decided to go alone to the area being excavated by archaeologists - the Chaco ravine. There, the stone he once found in the warehouse emits a source of energy waves that interact with the waves emitted in the ravine, unintentionally warping space and time, bringing Vincent back to the Maya era and the story of Transfer your journey is started.",
+        "anasazi": "Anasazi",
+        "anasaziTitle": "ENDLESS MYSTERIES",
+        "anasaziMapTitle": "ANASAZI CIVILIZATION - ENDLESS MYSTERIES",
+        "anasaziMapDesc": "This time Vincent uses the map to continue his journey towards the sunrise and reach the Anasazi land. As soon as he landed at the dock, what Vincent saw was a parched land. After conversing with the people, Vincent learns that this is the kingdom of the sun, but the drought has been too long and their queen is in a coma.",
+        "indus": "Indus",
+        "indusTitle": "MYSTERY OF INDUS",
+        "indusMapTitle": "INDUS CIVILIZATION - MYSTERY OF INDUS",
+        "indusMapDesc": "The portal opens to lead Vincent to the Indus valley, where Vincent begins to wander in search of more clues from this land. Looking through the mist of the valley, Vincent discovered a village devastated by natural disasters left in ruins. What is the secret in this village?",
+        "viking": "Viking",
+        "vikingTitle": "A GLORIOUS VIKING ERA",
+        "vikingMapTitle": "VIKING CIVILIZATION - A GLORIOUS VIKING ERA",
+        "vikingMapDesc": "Vincent continued his journey on a boat that started on the banks of the Nile, while moving, Vincent was caught in a vortex that took Vincent to the Atlantic Ocean, where Vincent encountered the Vikings and was captured. ships, must hand over resources. Vincent was brought back to Scotland, where the Vikings were occupying.",
+        "egypt": "Egypt",
+        "egyptTitle": "CRADLE OF HUMAN CIVILIZATION",
+        "egyptMapTitle": "EGYPT CIVILIZATION - CRADLE OF HUMAN CIVILIZATION",
+        "egyptMapDesc": "While searching for clues about the last piece, Vincent bumped into Marp while he was being chased in the old market. Marp is an honest and intelligent boy. Having witnessed his mother's death because he did not have money for medical treatment, he always had thoughts about social justice in his heart. Legend has it that, in the tombs of the Pharaoh there are many valuable treasures, knowing that Vincent is going to Pharaoh's Land to seek knowledge about humanity, Marp decided to follow him there.",
+        "greek": "Greek",
+        "greekTitle": "ANCIENT GREEK CIVILIZATION",
+        "greekMapTitle": "GREEK CIVILIZATION - FINDING ANCIENT GREEK CIVILIZATION",
+        "greekMapDesc": "The small village in Greece is the next point that Vincent stops to find more clues about the puzzle piece in this land. Unintentionally, Vincent met Layla crying. After a long conversation, Layla told Vincent her opposite love story. Layla fell in love with Hercules, so he asked for the arrow of the cupid god Eros. But unfortunately the arrow hit the wrong Zeus – the Supreme God. Layla despairs because Zeus threatens that if she doesn't accept to be his wife, he will bring all the disaster on the Greek people. Vincent decides to help the girl get the love of his life. Layla leads Vincent to find the gods for help.",
+        "atlantis": "Atlantis",
+        "atlantisTitle": "THE LOST CIVILIZATION",
+        "atlantisMapTitle": "ATLANTIS CIVILIZATION - THE JOURNEY TO FIND THE LOST CIVILIZATION",
+        "atlantisMapDesc": "Vincent continues his journey on the ship obtained from the battle with the Vikings, thanks to the map, Vincent has reached the mysterious island of Atlantis, where the 4th puzzle piece, the seemingly puzzle piece, is kept. as the hardest to find. Note: Thanks to the energy emitted from the Trident of Neptune (TON), the city of Atlantis was able to float on water and was the most prosperous and advanced city. This city is the domain of Poseidon, Poseidon is the law, the supreme being, anyone who resists is to bring himself to death. There are many slaves who are being forced to build his statue, in order to show the power and authority of Poseidon.",
+        "asgard": "Asgard",
+        "asgardTitle": "ASGARDIAN CIVILIZATION",
+        "asgardMapTitle": "ASGARDIAN CIVILIZATION",
+        "asgardMapDesc": "Comming soon"
+    },
+    "discover": {
+        "playToDiscover": "PLAY TO DISCOVER",
+        "theNewRevolution": "THE NEW REVOLUTION",
+        "treasureHunter": "Treasure hunter is an old but new game with special features, owned and operated by the player. These are also the things that determine your growth in the game.",
+        "forge": "FORGE",
+        "breeding": "Breeding",
+        "adventure": "ADVENTURE"
+    },
+    "marketplace": {
+        "charactersSystem": "CHARACTERS SYSTEM",
+        "diverseCharacter": "Diverse character system, many levels will accompany players through the journey full of hardships and challenges"
+    },
+    "smithy": {
+        "title": "Smithy",
+        "diverseCharacter": "Diverse character system, many levels will accompany players through the journey full of hardships and challenges"
+    },
+    "collection": {
+        "petCollection": "Pet collection",
+        "lovelyPets": "These lovely pets will probably help you get through these tough journeys!",
+        "someScary": "but there are some really scary looking ones, which might work well... haha!"
+    }
+}

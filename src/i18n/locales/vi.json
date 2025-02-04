@@ -1,1 +1,93 @@
-{}
+{
+  "common": {
+    "playNow": "Chơi ngay",
+    "discoverNow": "Khám phá ngay",
+    "buyPet": "Mua Thú Cưng",
+    "joinOur": "THAM GIA CỘNG ĐỒNG CỦA CHÚNG TÔI"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "maps": "Bản đồ",
+    "market": "Chợ"
+  },
+  "mysteriousIntelligence": "Kho báu trí tuệ bí ẩn",
+  "openYourOwnEra": "Mở ra kỷ nguyên của riêng bạn",
+  "about": {
+    "weAreTreasureHunter": "Chúng tôi là những thợ săn kho báu",
+    "descAboutUs": "Đội ngũ phát triển trò chơi Treasure Hunters gồm những người trẻ tiếp cận và thừa hưởng công nghệ hiện đại, mong muốn nâng tầm một thể loại trò chơi quen thuộc nhưng theo phong cách hoàn toàn mới. Mọi vật phẩm và nhân vật trong game đều được số hóa bằng công nghệ Blockchain tiên tiến dưới dạng NFT, mang đến trải nghiệm mới lạ và thú vị cho người chơi.",
+    "vicentStory": "CÂU CHUYỆN CỦA VINCENT",
+    "vicentStoryDetail": "Vincent chuẩn bị cho hành trình của mình. Khi đang sắp xếp đồ đạc, anh vô tình tìm thấy một chiếc rương cũ phủ đầy bụi trong kho. Bên trong có một chiếc la bàn cổ, một sợi dây chuyền gắn đá và một tấm bản đồ… 'Ồ, đây là bản đồ cổ của Anasazi từ hàng ngàn năm trước,' Vincent thốt lên. Anh quyết định một mình đến hẻm núi Chaco, nơi các nhà khảo cổ đang khai quật. Tại đó, viên đá anh từng tìm thấy phát ra sóng năng lượng tương tác với những làn sóng trong hẻm núi, vô tình khiến không gian và thời gian bị biến dạng, đưa Vincent trở về thời đại Anasazi và bắt đầu hành trình của mình."
+  },
+  "journey": {
+    "journeyOfDiscovery": "HÀNH TRÌNH KHÁM PHÁ",
+    "journeyOfDiscoveryDetail": "Treasure Hunter là trò chơi dành cho những người tìm kiếm kho báu. Người chơi sẽ phải vượt qua những hành trình khó khăn để tìm ra câu trả lời cho riêng mình. Hãy chuẩn bị trang bị cần thiết để bắt đầu chuyến phiêu lưu dài. Treasure Hunter sử dụng công nghệ tiên tiến Blockchain, với phần thưởng trong trò chơi có giá trị tương đương với tiền điện tử."
+  },
+  "homeMap": {
+    "mapOfCivilization": "BẢN ĐỒ CÁC NỀN VĂN MINH",
+    "homeMapHistory": "'Lịch sử' luôn được xem là một cuốn tiểu thuyết bất tận, và những người đam mê luôn tìm cách hoàn thiện và quay lại những trang đầu tiên để kết nối và khám phá thực tại. Những năm gần đây, khi khoa học và công nghệ hòa nhập vào đời sống, một chủ đề được cộng đồng quan tâm chính là nguồn gốc loài người, tổ tiên nhân loại và nền văn minh sơ khai. Nền văn minh đó hình thành từ khi nào? Chúng ta thực sự tiến hóa theo thuyết Darwin hay có một lý do khác?",
+    "homeMapVincent": "Vincent, một công dân của Bắc Bán Cầu, yêu thích phiêu lưu, luôn muốn khám phá những vùng đất mới và nghi ngờ về nguồn gốc của nhân loại. Một ngày nọ, khi tình cờ thấy tin tức về một nền văn minh cổ đại vừa được khai quật, anh quyết định bỏ lại mọi việc hiện tại để bắt đầu cuộc hành trình khám phá những nền văn minh cổ."
+  },
+  "maps": {
+    "maya": "Maya",
+    "mayaTitle": "KHO BÁU CỦA SỰ THÔNG THÁI HUYỀN BÍ",
+    "mayaMapTitle": "NỀN VĂN MINH MAYA - KHO BÁU CỦA SỰ THÔNG THÁI HUYỀN BÍ",
+    "mayaMapDesc": "Khi chuẩn bị cho chuyến thám hiểm, Vincent vô tình phát hiện một 'kho báu' quý giá được cất giữ trong một chiếc rương cổ - một chiếc la bàn cũ, một sợi dây chuyền gắn đá và một tấm bản đồ cổ... 'Ồ, đây là bản đồ cổ của Maya từ hàng nghìn năm trước,' Vincent nói. Anh quyết định một mình đến khu vực các nhà khảo cổ đang khai quật - hẻm núi Chaco. Ở đó, viên đá anh tìm thấy trong kho phát ra nguồn năng lượng tương tác với những làn sóng năng lượng trong hẻm núi, vô tình làm biến dạng không gian và thời gian, đưa Vincent trở về thời kỳ Maya và bắt đầu hành trình của mình.",
+
+    "anasazi": "Anasazi",
+    "anasaziTitle": "BÍ ẨN BẤT TẬN",
+    "anasaziMapTitle": "NỀN VĂN MINH ANASAZI - BÍ ẨN BẤT TẬN",
+    "anasaziMapDesc": "Lần này, Vincent sử dụng bản đồ để tiếp tục hành trình về phía mặt trời mọc và đến vùng đất Anasazi. Ngay khi đặt chân lên bến cảng, điều đầu tiên Vincent nhìn thấy là một vùng đất khô cằn. Sau khi trò chuyện với người dân, anh biết rằng đây là vương quốc của mặt trời, nhưng hạn hán kéo dài đã khiến nữ hoàng của họ rơi vào hôn mê.",
+
+    "indus": "Indus",
+    "indusTitle": "BÍ ẨN THUNG LŨNG INDUS",
+    "indusMapTitle": "NỀN VĂN MINH INDUS - BÍ ẨN THUNG LŨNG INDUS",
+    "indusMapDesc": "Cánh cổng mở ra, đưa Vincent đến thung lũng Indus, nơi anh bắt đầu hành trình tìm kiếm manh mối về vùng đất này. Xuyên qua làn sương mờ của thung lũng, Vincent phát hiện một ngôi làng bị tàn phá bởi thiên tai, chỉ còn lại những tàn tích đổ nát. Bí ẩn nào đang ẩn giấu trong ngôi làng này?",
+
+    "viking": "Viking",
+    "vikingTitle": "KỶ NGUYÊN HUY HOÀNG CỦA VIKING",
+    "vikingMapTitle": "NỀN VĂN MINH VIKING - KỶ NGUYÊN HUY HOÀNG",
+    "vikingMapDesc": "Vincent tiếp tục hành trình trên con thuyền bắt đầu từ bờ sông Nile. Khi đang di chuyển, anh bất ngờ bị cuốn vào một vòng xoáy, đẩy anh đến Đại Tây Dương, nơi anh chạm trán với những chiến binh Viking và bị bắt làm tù nhân. Anh bị yêu cầu giao nộp tài nguyên và bị đưa về Scotland, nơi những chiến binh Viking đang chiếm đóng.",
+
+    "egypt": "AI CẬP",
+    "egyptTitle": "CÁI NÔI CỦA NỀN VĂN MINH NHÂN LOẠI",
+    "egyptMapTitle": "NỀN VĂN MINH AI CẬP - CÁI NÔI CỦA NỀN VĂN MINH NHÂN LOẠI",
+    "egyptMapDesc": "Trong lúc tìm kiếm manh mối về mảnh ghép cuối cùng, Vincent tình cờ gặp Marp khi cậu bé đang bị truy đuổi trong khu chợ cổ. Marp là một cậu bé thông minh và trung thực. Chứng kiến mẹ mình qua đời vì không đủ tiền chữa trị, Marp luôn ôm ấp trong lòng những suy nghĩ về công lý xã hội. Theo truyền thuyết, trong lăng mộ của các Pharaoh có rất nhiều kho báu quý giá. Khi biết Vincent đang đến vùng đất của Pharaoh để tìm kiếm tri thức về nhân loại, Marp quyết định đồng hành cùng anh.",
+
+    "greek": "HY LẠP",
+    "greekTitle": "NỀN VĂN MINH HY LẠP CỔ ĐẠI",
+    "greekMapTitle": "NỀN VĂN MINH HY LẠP - HÀNH TRÌNH TÌM KIẾM",
+    "greekMapDesc": "Ngôi làng nhỏ ở Hy Lạp là điểm dừng chân tiếp theo của Vincent để tìm kiếm manh mối về mảnh ghép bí ẩn. Tình cờ, Vincent gặp Layla đang khóc. Sau một cuộc trò chuyện dài, Layla kể về câu chuyện tình yêu trắc trở của mình. Layla yêu Hercules và đã cầu xin mũi tên của thần tình yêu Eros. Nhưng không may, mũi tên lại bắn trúng Zeus – vị thần tối cao. Layla tuyệt vọng vì Zeus đe dọa rằng nếu cô không chấp nhận làm vợ ông, ông sẽ giáng tai ương xuống toàn bộ Hy Lạp. Vincent quyết định giúp cô giành lại tình yêu của đời mình. Layla dẫn Vincent đi tìm sự giúp đỡ từ các vị thần.",
+
+    "atlantis": "Atlantis",
+    "atlantisTitle": "NỀN VĂN MINH BỊ MẤT TÍCH",
+    "atlantisMapTitle": "NỀN VĂN MINH ATLANTIS - HÀNH TRÌNH TÌM KIẾM",
+    "atlantisMapDesc": "Vincent tiếp tục hành trình trên con tàu giành được sau trận chiến với người Viking. Nhờ tấm bản đồ, anh đã đến được hòn đảo bí ẩn Atlantis, nơi cất giữ mảnh ghép thứ tư - có vẻ là mảnh ghép khó tìm nhất. Lưu ý: Nhờ năng lượng phát ra từ cây Đinh Ba của Neptune (TON), thành phố Atlantis có thể nổi trên mặt nước và trở thành thành phố thịnh vượng nhất. Đây là vùng đất của Poseidon, nơi ông đặt ra luật lệ tối cao. Bất kỳ ai chống đối đều phải đối mặt với cái chết. Rất nhiều nô lệ đang bị ép buộc xây dựng tượng đài của Poseidon để thể hiện quyền lực và sự thống trị của ông.",
+
+    "asgard": "Asgard",
+    "asgardTitle": "NỀN VĂN MINH ASGARD",
+    "asgardMapTitle": "NỀN VĂN MINH ASGARD",
+    "asgardMapDesc": "Sắp ra mắt"
+  },
+  "discover": {
+    "playToDiscover": "CHƠI ĐỂ KHÁM PHÁ",
+    "theNewRevolution": "CUỘC CÁCH MẠNG MỚI",
+    "treasureHunter": "Treasure Hunter là một trò chơi quen thuộc nhưng lại mang đến trải nghiệm mới với những tính năng đặc biệt, do người chơi sở hữu và vận hành. Chính bạn sẽ quyết định sự phát triển của mình trong trò chơi.",
+    "forge": "RÈN LUYỆN",
+    "breeding": "LAI TẠO",
+    "adventure": "PHIÊU LƯU"
+  },
+  "marketplace": {
+    "charactersSystem": "HỆ THỐNG NHÂN VẬT",
+    "diverseCharacter": "Hệ thống nhân vật đa dạng với nhiều cấp độ khác nhau sẽ đồng hành cùng người chơi qua những thử thách đầy gian nan."
+  },
+  "smithy": {
+    "title": "Lò rèn",
+    "diverseCharacter": "Hệ thống nhân vật đa dạng với nhiều cấp độ khác nhau sẽ đồng hành cùng người chơi qua những thử thách đầy gian nan."
+  },
+  "collection": {
+    "petCollection": "Bộ sưu tập thú cưng",
+    "lovelyPets": "Những thú cưng đáng yêu này có thể sẽ giúp bạn vượt qua những hành trình khó khăn!",
+    "someScary": "Nhưng cũng có những con trông khá đáng sợ, có thể rất hữu ích đấy... haha!"
+  }
+}

@@ -29,7 +29,7 @@
       ></a>
 
       <div class="el__item--meta text-center">
-        <h1 class="el__item--title">MYSTERIOUS INTELLIGENCE TREASURES</h1>
+        <h1 class="el__item--title">{{ $t("mysteriousIntelligence") }}</h1>
         <div class="el__item--sub">
           {{ mapDetail.title }}
         </div>

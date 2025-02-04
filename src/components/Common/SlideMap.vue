@@ -23,53 +23,54 @@
 </template>
 
 <script lang="ts" setup>
+const {t} = useI18n();
 const SLIDE_MAP_DATA = [
   {
     id: "1",
-    name: "Maya",
-    title: "A TREASURE OF MYSTERIOUS WISDOM",
+    name: t("maps.maya"),
+    title: t("maps.mayaTitle"),
     img: "images/home-island-map-1.png",
   },
   {
     id: "2",
-    name: "Anasazi",
-    title: "ENDLESS MYSTERIES",
+    name: t("maps.anasazi"),
+    title: t("maps.anasaziTitle"),
     img: "images/home-island-map-2.png",
   },
   {
     id: "3",
-    name: "Indus",
-    title: "MYSTERY OF INDUS",
+    name: t("maps.indus"),
+    title: t("maps.indusTitle"),
     img: "images/home-island-map-3.png",
   },
   {
     id: "4",
-    name: "Viking",
-    title: "A GLORIOUS VIKING ERA",
+    name: t("maps.viking"),
+    title: t("maps.vikingTitle"),
     img: "images/home-island-map-4.png",
   },
   {
     id: "5",
-    name: "Egypt",
-    title: "CRADLE OF HUMAN CIVILIZATION",
+    name: t("maps.egypt"),
+    title: t("maps.egyptTitle"),
     img: "images/home-island-map-5.png",
   },
   {
     id: "6",
-    name: "Greek",
-    title: "ANCIENT GREEK CIVILIZATION",
+    name: t("maps.greek"),
+    title: t("maps.greekTitle"),
     img: "images/home-island-map-6.png",
   },
   {
     id: "7",
-    name: "Atlantis",
-    title: "THE LOST CIVILIZATION",
+    name: t("maps.atlantis"),
+    title: t("maps.atlantisTitle"),
     img: "images/home-island-map-7.png",
   },
   {
     id: "8",
-    name: "Asgard",
-    title: "ASGARDIAN CIVILIZATION",
+    name: t("maps.asgard"),
+    title: t("maps.asgardTitle"),
     img: "images/home-island-map-8.png",
   },
 ];

@@ -2,11 +2,8 @@
   <section class="home-smithy">
     <div class="container">
       <div class="sc__header text-center mb-3">
-        <h2 class="sc__header--title wow fadeInLeft">Smithy</h2>
-        <div class="sc__header--excerpt wow fadeInRight">
-          Diverse character system, many levels will accompany players through
-          the journey full of hardships and challenges
-        </div>
+        <h2 class="sc__header--title wow fadeInLeft">{{ $t("smithy.title") }}</h2>
+        <div class="sc__header--excerpt wow fadeInRight">{{ $t("smithy.diverseCharacter") }}</div>
       </div>
 
       <div class="el__thumb">

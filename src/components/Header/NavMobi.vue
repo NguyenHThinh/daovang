@@ -6,14 +6,14 @@
           <img src="/assets/img/ic_menu.png" width="30" height="24" alt="" />
         </div>
         <h1 class="logo">
-          <NuxtLink href="/">
+          <NuxtLinkLocale href="/">
             <NuxtImg
               width="154"
               height="45"
               src="/images/logo-mb.png"
               alt="Logo"
             />
-          </NuxtLink>
+          </NuxtLinkLocale>
         </h1>
       </div>
     </header>
@@ -28,33 +28,33 @@
 
       <div>
         <div class="logo">
-          <a href="index.html">
+          <NuxtLinkLocale href="/">
             <NuxtImg
               width="154"
               height="45"
               src="/images/logo-mb.png"
               alt="Logo"
             />
-          </a>
+          </NuxtLinkLocale>
         </div>
 
         <ul class="el__menu">
           <li class="menu-item">
-            <NuxtLink active-class="active" href="/">Home</NuxtLink>
+            <NuxtLinkLocale active-class="active" href="/">{{ $t("nav.home") }}</NuxtLinkLocale>
           </li>
           <li class="menu-item">
-            <NuxtLink active-class="active" href="/about">About</NuxtLink>
+            <NuxtLinkLocale active-class="active" href="/about">{{ $t("nav.about") }}</NuxtLinkLocale>
           </li>
           <li class="menu-item">
-            <NuxtLink active-class="active" href="/maps">MAPS</NuxtLink>
+            <NuxtLinkLocale active-class="active" href="/maps">{{ $t("nav.maps") }}</NuxtLinkLocale>
           </li>
           <li class="menu-item">
-            <NuxtLink href="/#home-marketplace">MARKETPLACE</NuxtLink>
+            <NuxtLinkLocale href="/#home-marketplace">{{ $t("nav.market") }}</NuxtLinkLocale>
           </li>
         </ul>
 
         <div class="footer__socical">
-          <p>JOIN OUR COMMUNITY</p>
+          <p>{{ $t("common.joinOur") }}</p>
           <ul>
             <li>
               <a href="" class="footer__socical--twitter" target="_blank"></a>

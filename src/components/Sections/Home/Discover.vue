@@ -5,20 +5,22 @@
         <div class="col-lg-5">
           <div class="home-discover--paper wow fadeInUp">
             <h2 class="home-discover--title">
-              PLAY TO DISCOVER <br />THE NEW REVOLUTION
+              {{ $t("discover.playToDiscover") }} <br />{{ $t("discover.theNewRevolution") }}
             </h2>
-            <div class="home-discover--excerpt">
-              Treasure hunter is an old but new game with special features,
-              owned and operated by the player. These are also the things that
-              determine your growth in the game.
-            </div>
+            <div class="home-discover--excerpt">{{ $t("discover.treasureHunter") }}</div>
             <ul class="home-discover--list row g-3">
-              <li class="col-4"><a href="#">Marketplace</a></li>
-              <li class="col-4"><a href="#">facebook</a></li>
-              <li class="col-4"><a href="#">discord </a></li>
+              <li class="col-4 home-discover--list__item">
+                <a href="#">{{ $t("nav.market") }}</a>
+              </li>
+              <li class="col-4 home-discover--list__item">
+                <a href="#">facebook</a>
+              </li>
+              <li class="col-4 home-discover--list__item">
+                <a href="#">discord </a>
+              </li>
             </ul>
             <div class="text-center">
-              <a href="" class="btn--playnow">Play now</a>
+              <a href="" class="btn--playnow">{{ $t("common.playNow") }}</a>
             </div>
           </div>
         </div>
@@ -32,7 +34,7 @@
                   </div>
                 </div>
                 <div class="el__item--meta">
-                  <h3 class="el__item--title">ADVENTURE</h3>
+                  <h3 class="el__item--title">{{ $t("discover.adventure") }}</h3>
                 </div>
               </div>
             </div>
@@ -44,7 +46,7 @@
                   </div>
                 </div>
                 <div class="el__item--meta">
-                  <h3 class="el__item--title">Breeding</h3>
+                  <h3 class="el__item--title">{{ $t("discover.breeding") }}</h3>
                 </div>
               </div>
             </div>
@@ -56,7 +58,7 @@
                   </div>
                 </div>
                 <div class="el__item--meta">
-                  <h3 class="el__item--title">FORGE</h3>
+                  <h3 class="el__item--title">{{ $t("discover.forge") }}</h3>
                 </div>
               </div>
             </div>
@@ -68,3 +70,14 @@
 </template>
 
 <script lang="ts" setup></script>
+
+<style scoped>
+@media (min-width: 992px) and (max-width: 1200px) {
+  .home-discover--list {
+    justify-content: center;
+  }
+  .home-discover--list__item {
+    width: 50%;
+  }
+}
+</style>
